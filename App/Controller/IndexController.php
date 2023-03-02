@@ -3,12 +3,16 @@
 namespace App\Controller;
 class IndexController {
 
-    public function index(){
-        return view('index');
+   public function index(){
+        $dados = array('sofa','cadeira','cama');
+        return view('index', $dados);
     }
 
    public function sobreNos(){
-        return view('sobreNos');
+    $dados = array('bala','casa','bano');
+    return view('sobreNos', $dados);
    }
+
+
 }
 ?>
