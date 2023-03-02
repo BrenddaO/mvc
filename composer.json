@@ -1,0 +1,10 @@
+{
+    "name": "brendda/mvc",
+    "autoload": {
+        "psr-4": {
+            "MF\\": "vendor/MF",
+            "App\\": "app/"
+        }
+    }, 
+    "require": {}
+}
